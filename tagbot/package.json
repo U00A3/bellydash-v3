@@ -1,0 +1,14 @@
+{
+  "name": "bellydash-tagme",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TagMe Discord bot: /tagme /untag /tags and plain-chat cleanup on the alerts channel.",
+  "main": "tagbot.js",
+  "scripts": {
+    "start": "node tagbot.js",
+    "register": "node tagbot.js --register"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0"
+  }
+}

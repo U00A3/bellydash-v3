@@ -1,13 +1,13 @@
 # Bellydash Discord alerts (proposal)
 
-Private documentation for Redbelly Discord administrators and Bellydash maintainers.
+Documentation and TagMe source for Redbelly Discord administrators and Bellydash maintainers.
 
 **Repository:** https://github.com/U00A3/bellydash-v3
 
 **Live dashboard:** [https://mynode.uk](https://mynode.uk)  
 **Public fleet API:** `GET https://mynode.uk/api/v3/nodes`
 
-This repository contains **description and security notes only**. It does not contain bot tokens, webhook secrets, or application source code.
+This repository contains the **admin brief**, sample embeds, and the **TagMe bot source** for review. It does **not** contain bot tokens, webhook secrets, or live tag maps.
 
 ## Documents
 
@@ -15,6 +15,7 @@ This repository contains **description and security notes only**. It does not co
 |---|---|
 | [ABOUT.md](./ABOUT.md) | What Bellydash is (read-only Redbelly node dashboard) |
 | [DISCORD-ADMIN.md](./DISCORD-ADMIN.md) | How alerts and TagMe would work on the official Redbelly Discord; permissions; risks; screenshots |
+| [tagbot/](./tagbot/) | TagMe source (`/tagme` / `/untag` / `/tags` + plain-chat cleanup) |
 | [pics/](./pics/) | Sample Discord embeds (welcome, down, back online, TLS, sync) and TagMe app profile |
 
 ## One-line summary

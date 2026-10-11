@@ -87,6 +87,8 @@ Slash commands on the alert channel:
 
 Replies are **ephemeral**: only the person who ran the command sees the bot reply.
 
+**Source for review:** [`tagbot/`](./tagbot/) in this repository (`tagbot.js`, `lib/tags.js`). No tokens or live tag data are published.
+
 Hostname must appear on the public Bellydash fleet list. Tagging is **trust-based** (no wallet proof in v1). Abuse surface is small (someone gets noisy pings, or blocks a slot); staff can clear a mapping; operators can `/untag`.
 
 Operators do **not** need to "Add App" / User Install on their Discord account. Commands are used on the server channel.
